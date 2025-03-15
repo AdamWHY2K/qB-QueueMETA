@@ -1,0 +1,7 @@
+host: "YOUR_QBITTORRENT_IP:PORT"
+username: "CHANGEME"
+password: "CHANGEME"
+interval: 60
+once: false
+verbose: false
+verify_certificate: true
