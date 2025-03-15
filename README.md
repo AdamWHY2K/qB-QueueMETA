@@ -4,7 +4,8 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-*The intent is to automatically weed out queued torrents that would otherwise stall on metaDL.*
+*The intent is to automatically weed out queued torrents that would otherwise stall on metaDL, also useful displaying the size of all torrents in the queue*
+
 *Personally using with [decluttarr](https://github.com/ManiMatter/decluttarr/) and [qbittorrent-totals](https://github.com/KaiStarkk/qbittorrent-totals)*
 
 ## qB-Queueᴹᴱᵀᴬ Demo
