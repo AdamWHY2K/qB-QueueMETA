@@ -8,7 +8,7 @@
 
 *Personally using with [decluttarr](https://github.com/ManiMatter/decluttarr/) and [qbittorrent-totals](https://github.com/KaiStarkk/qbittorrent-totals)*
 
-## qB-Queueᴹᴱᵀᴬ Demo
+## Demo
 ### Before:
 ![before_screenshot](https://github.com/user-attachments/assets/a913808b-5a02-4916-ba6b-2d45fc6dfb6f)
 ### During:
