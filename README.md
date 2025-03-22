@@ -72,7 +72,7 @@ Type=simple
 User=qbittorrent-nox
 SyslogIdentifier=qB-QueueMETA
 WorkingDirectory=/opt/qB-QueueMETA/
-ExecStart=/usr/bin/python3 /opt/qB-QueueMETA/qB-QueueMETA.py --config config.yaml
+ExecStart=/usr/bin/python3 /opt/qB-QueueMETA/qB-QueueMETA.py --config /opt/qB-QueueMETA/config.yaml
 Restart=on-failure
 RestartSec=3600s
 
@@ -101,9 +101,10 @@ python3 qB-QueueMETA.py --config config.yaml --verbose
 PRs welcome! Please follow:
 1. Fork repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push branch (`git push origin feature/amazing-feature`)
-5. Open PR
+3. Add changes (`git add .`)
+4. Commit changes (`git commit -m 'Add amazing feature'`)
+5. Push branch (`git push origin feature/amazing-feature`)
+6. Open PR
 
 ## 📜 License
 This project is licensed under the **GNU Affero General Public License v3.0**.  
