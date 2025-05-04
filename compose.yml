@@ -1,0 +1,16 @@
+services:
+  qb-queuemeta:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command:
+      - --host
+      - 192.168.2.10:8080
+      - --username
+      - admin
+      - --password
+      - adminadmin
+      - --interval
+      - "60"
+      - --verbose
+    restart: unless-stopped
