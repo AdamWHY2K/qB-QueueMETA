@@ -29,12 +29,17 @@
 - 📊 **Verbose Logging** - Detailed operational insights
 
 ## 📦 Installation
+### Manual
 ```bash
 git clone https://github.com/AdamWHY2K/qB-QueueMETA.git
 mv qB-QueueMETA /opt/
 cd /opt/qB-QueueMETA
 pip install -r requirements.txt
 ```
+### Docker
+Available at `ghcr.io/adamwhy2k/qb-queuemeta:latest`
+
+(Thanks [karanravindra](https://github.com/karanravindra)!)
 
 ## ⚙️ Configuration
 ```bash
